@@ -1,0 +1,78 @@
+# ===============================
+# Python
+# ===============================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environment
+myenv/
+venv/
+.env/
+.envrc
+
+# ===============================
+# Packaging
+# ===============================
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+
+# ===============================
+# Logs
+# ===============================
+logs/
+*.log
+
+# ===============================
+# ML / MLOps
+# ===============================
+
+# Artifacts (models, outputs, etc.)
+artifacts/
+catboost_info/
+
+# MLflow
+mlruns/
+
+# DVC cache
+.dvc/cache/
+
+# Data (if large files tracked by DVC)
+data/raw/
+data/processed/
+data/external/
+
+# ===============================
+# Jupyter
+# ===============================
+.ipynb_checkpoints/
+notebooks/*.ipynb
+
+# ===============================
+# VS Code
+# ===============================
+.vscode/
+
+# ===============================
+# OS Files
+# ===============================
+.DS_Store
+Thumbs.db
+
+# ===============================
+# Testing / Coverage
+# ===============================
+.coverage
+htmlcov/
+.pytest_cache/
+
+# ===============================
+# Misc
+# ===============================
+*.sqlite3
+*.db
+.trunk/
