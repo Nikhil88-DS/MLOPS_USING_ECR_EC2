@@ -32,7 +32,7 @@ logs/
 # ===============================
 
 # Artifacts (models, outputs, etc.)
-#artifacts/
+# artifacts/
 catboost_info/
 
 # MLflow
